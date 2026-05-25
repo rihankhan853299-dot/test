@@ -308,12 +308,12 @@ body {
     }
 
     .search-container {
-        max-width: 180px; /* Sketch ke mutabik center me fitting space */
+        max-width: 260px; /* Sketch ke mutabik center me fitting space */
         margin: 0;
     }
 
     .search-box {
-        height: 36px;
+        height: 38px;
         padding: 0 3px 0 10px;
     }
 
