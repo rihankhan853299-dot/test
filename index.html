@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium E-Commerce Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="navbar container">
+            
+            <a href="#" class="brand-logo">
+                <i class="fa-solid fa-bag-shopping"></i> Jamshaid
+            </a>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="Search here...">
+                    <button class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-right-wrapper">
+                <button class="action-btn" id="theme-toggle" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <a href="#" class="action-btn cart-icon" title="Cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count">3</span>
+                </a>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+                        
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle">
+                                Categories <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="fa-solid fa-shirt"></i> Fashion</a></li>
+                                <li><a href="#"><i class="fa-solid fa-laptop"></i> Electronics</a></li>
+                                <li><a href="#"><i class="fa-solid fa-apple-whole"></i> Grocery</a></li>
+                                <li><a href="#"><i class="fa-solid fa-wand-magic-sparkles"></i> Beauty</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Deals</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item mobile-only"><a href="#" class="login-btn-mobile">Login / Signup</a></li>
+                    </ul>
+                </div>
+
+                <a href="#" class="login-btn desktop-only">Login</a>
+
+                <button class="hamburger" id="hamburger" title="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+
+        </nav>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
